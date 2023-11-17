@@ -26,7 +26,7 @@ const Hero = () => {
                     <span className="text-logitech-blue inline-block mt-3">
                         Logitech
                     </span>{" "}
-                    Shoes
+                    Mice
                 </h1>
                 <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
                     Discover stylish Logitech arrivals, quality comfort, and
