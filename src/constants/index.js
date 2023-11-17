@@ -52,22 +52,22 @@ export const statistics = [
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
+        name: "Logitech Air Jordan-01",
         price: "$200.20",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
+        name: "Logitech Air Jordan-10",
         price: "$210.20",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        name: "Logitech Air Jordan-100",
         price: "$220.20",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        name: "Logitech Air Jordan-001",
         price: "$230.20",
     },
 ];
@@ -118,8 +118,8 @@ export const footerLinks = [
             { name: "Air Max 1", link: "/" },
             { name: "Air Jordan 1", link: "/" },
             { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Logitech Waffle Racer", link: "/" },
+            { name: "Logitech Cortez", link: "/" },
         ],
     },
     {
@@ -135,7 +135,10 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            {
+                name: "customer@Logitech.com",
+                link: "mailto:customer@Logitech.com",
+            },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },
