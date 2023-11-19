@@ -16,6 +16,7 @@ import {
     mouse2,
     mouse3,
     mouse4,
+    shoe8,
     thumbnailShoe1,
     thumbnailShoe2,
     thumbnailShoe3,

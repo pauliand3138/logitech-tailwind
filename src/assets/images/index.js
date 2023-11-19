@@ -10,6 +10,8 @@ import headerLogo from "./header-logo.svg";
 
 import offer from "./offer.svg";
 
+import shoe8 from "./shoe8.svg";
+
 import mouse1 from "./mouse1.png";
 import mouse2 from "./mouse2.png";
 import mouse3 from "./mouse3.png";
@@ -33,6 +35,7 @@ export {
     mouse2,
     mouse3,
     mouse4,
+    shoe8,
     thumbnailBackground,
     thumbnailShoe1,
     thumbnailShoe2,
