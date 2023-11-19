@@ -12,10 +12,10 @@ import {
     bigShoe3,
     customer1,
     customer2,
-    shoe4,
-    shoe5,
-    shoe6,
-    shoe7,
+    mouse1,
+    mouse2,
+    mouse3,
+    mouse4,
     thumbnailShoe1,
     thumbnailShoe2,
     thumbnailShoe3,
@@ -51,24 +51,24 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Logitech Air Jordan-01",
-        price: "$200.20",
+        imgURL: mouse1,
+        name: "Logitech MX MASTER 3S",
+        price: "$169.95",
     },
     {
-        imgURL: shoe5,
-        name: "Logitech Air Jordan-10",
-        price: "$210.20",
+        imgURL: mouse2,
+        name: "Logitech SIGNATURE M650",
+        price: "$59.95",
     },
     {
-        imgURL: shoe6,
-        name: "Logitech Air Jordan-100",
+        imgURL: mouse3,
+        name: "Logitech MX ERGO",
         price: "$220.20",
     },
     {
-        imgURL: shoe7,
-        name: "Logitech Air Jordan-001",
-        price: "$230.20",
+        imgURL: mouse4,
+        name: "Logitech MX ANYWHERE 3S",
+        price: "$139.95",
     },
 ];
 
