@@ -1,6 +1,6 @@
-import bigShoe1 from "./big-shoe1.png";
-import bigShoe2 from "./big-shoe2.png";
-import bigShoe3 from "./big-shoe3.png";
+import bigMouse1 from "./big-mouse1.png";
+import bigMouse2 from "./big-mouse2.png";
+import bigMouse3 from "./big-mouse3.png";
 
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
@@ -23,9 +23,9 @@ import thumbnailShoe2 from "./thumbnail-shoe2.svg";
 import thumbnailShoe3 from "./thumbnail-shoe3.svg";
 
 export {
-    bigShoe1,
-    bigShoe2,
-    bigShoe3,
+    bigMouse1,
+    bigMouse2,
+    bigMouse3,
     customer1,
     customer2,
     footerLogo,

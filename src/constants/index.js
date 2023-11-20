@@ -7,19 +7,15 @@ import {
     twitter,
 } from "../assets/icons";
 import {
-    bigShoe1,
-    bigShoe2,
-    bigShoe3,
+    bigMouse1,
+    bigMouse2,
+    bigMouse3,
     customer1,
     customer2,
     mouse1,
     mouse2,
     mouse3,
     mouse4,
-    shoe8,
-    thumbnailShoe1,
-    thumbnailShoe2,
-    thumbnailShoe3,
 } from "../assets/images";
 
 export const navLinks = [
@@ -31,16 +27,16 @@ export const navLinks = [
 
 export const shoes = [
     {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
+        thumbnail: bigMouse1,
+        bigShoe: bigMouse1,
     },
     {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
+        thumbnail: bigMouse2,
+        bigShoe: bigMouse2,
     },
     {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        thumbnail: bigMouse3,
+        bigShoe: bigMouse3,
     },
 ];
 

@@ -24,6 +24,7 @@ export default {
                 "slate-gray": "#6D6D6D",
                 "pale-blue": "#F5F6FF",
                 "logitech-blue": "#04A5E5",
+                "dark-blue": "#0071AD",
                 "white-400": "rgba(255, 255, 255, 0.80)",
             },
             boxShadow: {

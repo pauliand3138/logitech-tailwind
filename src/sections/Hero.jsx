@@ -2,12 +2,12 @@ import React from "react";
 import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
 import { shoes, statistics } from "../constants";
-import { bigShoe1 } from "../assets/images";
+import { bigMouse1 } from "../assets/images";
 import ShoeCard from "../components/ShoeCard";
 import { useState } from "react";
 
 const Hero = () => {
-    const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+    const [bigShoeImg, setBigShoeImg] = useState(bigMouse1);
 
     return (
         <section
@@ -29,8 +29,9 @@ const Hero = () => {
                     Mice
                 </h1>
                 <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
-                    Discover stylish Logitech arrivals, quality comfort, and
-                    innovation for your active life.
+                    Explore the latest Logitech arrivals, blending style,
+                    comfort, and innovation seamlessly to enhance your active
+                    lifestyle.
                 </p>
                 <Button label="Shop now" iconURL={arrowRight} />
 
@@ -52,9 +53,9 @@ const Hero = () => {
                 <img
                     src={bigShoeImg}
                     alt="shoe collection"
-                    width={610}
-                    height={500}
-                    className="object-contain relative z-10"
+                    width={800}
+                    height={700}
+                    className="object-contain relative z-10 hover:scale-105 transition-transform"
                 />
                 <div className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
                     {shoes.map((shoe) => (
