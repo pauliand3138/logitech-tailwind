@@ -5,14 +5,11 @@ import bigMouse3 from "./big-mouse3.png";
 import customer1 from "./customer1.jpeg";
 import customer2 from "./customer2.svg";
 
-import footerLogo from "./footer-logo.svg";
-import headerLogo from "./header-logo.svg";
 import logitechHeaderLogo from "./logitech-logo-blue.png";
 import logitechFooterLogo from "./logitech-logo-white.png";
 
 import specialOffer from "./specialOffer.png";
 
-import shoe8 from "./shoe8.svg";
 import superQualityMouse from "./superQuality.png";
 
 import mouse1 from "./mouse1.png";
@@ -21,9 +18,6 @@ import mouse3 from "./mouse3.png";
 import mouse4 from "./mouse4.png";
 
 import thumbnailBackground from "./thumbnail-background.svg";
-import thumbnailShoe1 from "./thumbnail-shoe1.svg";
-import thumbnailShoe2 from "./thumbnail-shoe2.svg";
-import thumbnailShoe3 from "./thumbnail-shoe3.svg";
 
 export {
     bigMouse1,
@@ -31,8 +25,6 @@ export {
     bigMouse3,
     customer1,
     customer2,
-    footerLogo,
-    headerLogo,
     logitechHeaderLogo,
     logitechFooterLogo,
     specialOffer,
@@ -40,10 +32,6 @@ export {
     mouse2,
     mouse3,
     mouse4,
-    shoe8,
     superQualityMouse,
     thumbnailBackground,
-    thumbnailShoe1,
-    thumbnailShoe2,
-    thumbnailShoe3,
 };

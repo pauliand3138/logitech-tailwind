@@ -1,5 +1,5 @@
 import React from "react";
-import { headerLogo, logitechHeaderLogo } from "../assets/images";
+import { logitechHeaderLogo } from "../assets/images";
 import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 

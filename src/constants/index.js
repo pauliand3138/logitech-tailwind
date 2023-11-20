@@ -51,21 +51,25 @@ export const products = [
         imgURL: mouse1,
         name: "Logitech MX MASTER 3S",
         price: "$169.95",
+        detail: "Meet MX Master 3S - an iconic mouse remastered. Feel every moment of your workflow with even more precision, tactility, and performance, thanks to Quiet Clicks and an 8,000 DPI track-on-glass sensor.",
     },
     {
         imgURL: mouse2,
         name: "Logitech SIGNATURE M650",
         price: "$59.95",
+        detail: "You'll enjoy working with your Signature M650. Each mouse features a contoured shape, soft thumb area, and rubber side grips that keep your hand snug and in place. Get more comfort and focus more on what you need to get done.",
     },
     {
         imgURL: mouse3,
         name: "Logitech MX ERGO",
         price: "$220.20",
+        detail: "Say no to fatigue or discomfort after a long day at work. MX ERGO is crafted for the shape of your hand and built for fast and precise tracking. Adjust your hand and wrist posture with the unique 0 or 20° tilt angle to conquer those lengthy decks and spreadsheets with ease — all the way from start to finish. ",
     },
     {
         imgURL: mouse4,
         name: "Logitech MX ANYWHERE 3S",
         price: "$139.95",
+        detail: "Experience ultimate versatility with remarkable performance. An advanced compact mouse that lets you work wherever the work takes you. Now with next-level precision and responsiveness thanks to 8K DPI any-surface tracking and quiet clicks.",
     },
 ];
 
