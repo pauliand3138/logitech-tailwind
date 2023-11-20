@@ -1,4 +1,4 @@
-import { shoe8 } from "../assets/images";
+import { superQualityMouse } from "../assets/images";
 import Button from "../components/Button";
 
 const SuperQuality = () => {
@@ -11,13 +11,13 @@ const SuperQuality = () => {
                 <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
                     We Provide You
                     <span className="text-logitech-blue"> Super</span>
-                    <span className="text-logitech-blue"> Quality </span> Shoes
+                    <span className="text-logitech-blue"> Quality </span> Mice
                 </h2>
                 <p className="mt-4 lg:max-w-lg info-text">
-                    Ensuring premium comfort and style, our meticuluously
-                    crafted footwear is designed to elevate your experience,
-                    providing you with unmatched quality, innovation, and a
-                    touch of elegance.
+                    Ensuring premium comfort and style, our meticulously crafted
+                    computer mice are designed to elevate your digital
+                    experience, providing unmatched quality, innovation, and a
+                    touch of sleek sophistication.
                 </p>
                 <p className="mt-6 lg:max-w-lg info-text">
                     Our dedication to detail and excellence ensures your
@@ -29,8 +29,8 @@ const SuperQuality = () => {
             </div>
             <div className="flex flex-1 justify-center items-center">
                 <img
-                    src={shoe8}
-                    alt="shoe8"
+                    src={superQualityMouse}
+                    alt="super quality mouse"
                     width={570}
                     height={522}
                     className="object-contain"

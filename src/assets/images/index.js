@@ -12,6 +12,7 @@ import logitechHeaderLogo from "./logitech-logo-blue.png";
 import offer from "./offer.svg";
 
 import shoe8 from "./shoe8.svg";
+import superQualityMouse from "./superQuality.png";
 
 import mouse1 from "./mouse1.png";
 import mouse2 from "./mouse2.png";
@@ -38,6 +39,7 @@ export {
     mouse3,
     mouse4,
     shoe8,
+    superQualityMouse,
     thumbnailBackground,
     thumbnailShoe1,
     thumbnailShoe2,
