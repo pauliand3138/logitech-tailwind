@@ -111,30 +111,30 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Logitech Waffle Racer", link: "/" },
-            { name: "Logitech Cortez", link: "/" },
+            { name: "PRO X SUPERLIGHT 2", link: "/" },
+            { name: "G502 X PLUS GAMING MOUSE", link: "/" },
+            { name: "G502 X LIGHTSPEED", link: "/" },
+            { name: "G903 HERO", link: "/" },
+            { name: "MX MASTER 3S", link: "/" },
+            { name: "SIGNATURE M650", link: "/" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
+            { name: "About Us", link: "/" },
             { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "How It Works", link: "/" },
+            { name: "Privacy Policy", link: "/" },
+            { name: "Payment Policy", link: "/" },
         ],
     },
     {
         title: "Get in touch",
         links: [
             {
-                name: "customer@Logitech.com",
-                link: "mailto:customer@Logitech.com",
+                name: "customer@logitech.com",
+                link: "mailto:customer@logitech.com",
             },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
