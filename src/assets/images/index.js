@@ -9,7 +9,7 @@ import footerLogo from "./footer-logo.svg";
 import headerLogo from "./header-logo.svg";
 import logitechHeaderLogo from "./logitech-logo-blue.png";
 
-import offer from "./offer.svg";
+import specialOffer from "./specialOffer.png";
 
 import shoe8 from "./shoe8.svg";
 import superQualityMouse from "./superQuality.png";
@@ -33,7 +33,7 @@ export {
     footerLogo,
     headerLogo,
     logitechHeaderLogo,
-    offer,
+    specialOffer,
     mouse1,
     mouse2,
     mouse3,
