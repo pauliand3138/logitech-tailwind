@@ -7,6 +7,7 @@ import customer2 from "./customer2.svg";
 
 import footerLogo from "./footer-logo.svg";
 import headerLogo from "./header-logo.svg";
+import logitechHeaderLogo from "./logitech-logo-blue.png";
 
 import offer from "./offer.svg";
 
@@ -30,6 +31,7 @@ export {
     customer2,
     footerLogo,
     headerLogo,
+    logitechHeaderLogo,
     offer,
     mouse1,
     mouse2,
