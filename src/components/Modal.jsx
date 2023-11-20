@@ -28,7 +28,10 @@ const Modal = ({ setShowModal, name, image, price, detail }) => {
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
                         <div className="flex flex-row max-lg:flex-col max-lg:gap-0 justify-center space-between gap-16">
-                            <img src={image} width={200} className="mx-auto" />
+                            <img
+                                src={image}
+                                className="mx-auto max-lg:w-[200px]"
+                            />
                             <p className="my-4 text-blueGray-500 text-lg max-lg:text-sm leading-relaxed info-text">
                                 {detail}
                             </p>
