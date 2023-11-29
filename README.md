@@ -1,8 +1,10 @@
-# React + Vite
+# Logitech Clone (Tailwind CSS + React JS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Logitech clone website that was created using Tailwind CSS and React JS. 
 
-Currently, two official plugins are available:
+Revamped from [Adrian Hajdin - JS Mastery](https://github.com/adrianhajdin)'s amazing [Nike Website Tutorial](https://www.youtube.com/watch?v=tS7upsfuxmo).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Edited Product Images, Information and Color Theme
+- Added Hover Animation and Modal for Popular Products
+
+![Preview](https://github.com/pauliand3138/logitech-tailwind/assets/90688344/7fea72c5-b0f1-4eea-944e-71b0fdaff04a)
