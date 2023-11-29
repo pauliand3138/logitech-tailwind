@@ -31,8 +31,8 @@ const Modal = ({ setShowModal, name, image, price, detail, otherImg }) => {
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
-                        <div className="flex flex-row max-lg:flex-col max-lg:gap-0 justify-center  gap-[7rem]">
-                            <div className="flex flex-row gap-1 bg-hero bg-cover bg-center rounded-lg items-center lg:min-w-[250px]">
+                        <div className="flex flex-row max-lg:flex-col max-lg:gap-0 justify-center gap-[7rem]">
+                            <div className="flex flex-row gap-1 max-lg:bg-logitech-blue lg:bg-hero bg-cover bg-center rounded-lg items-center lg:min-w-[250px]">
                                 <img
                                     src={bigShoeImg}
                                     className="max-lg:mx-auto max-lg:w-[200px] w-[580px] h-[200px]"
