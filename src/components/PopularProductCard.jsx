@@ -3,7 +3,7 @@ import { star } from "../assets/icons";
 import Modal from "./Modal";
 import { useState } from "react";
 
-const PopularProductCard = ({ imgURL, name, price, detail }) => {
+const PopularProductCard = ({ imgURL, name, price, detail, otherImg }) => {
     const [showModal, setShowModal] = useState(false);
 
     return (
@@ -11,7 +11,7 @@ const PopularProductCard = ({ imgURL, name, price, detail }) => {
             <img
                 src={imgURL}
                 alt={name}
-                className="w-[280px] h-[280px] hover:scale-105 transition-transform"
+                className="w-[280px] h-[280px] hover:scale-105 transition-transform cursor-pointer"
                 onClick={() => setShowModal(true)}
             />
             <div className="mt-8 flex justify-start gap-2.5">
@@ -33,6 +33,7 @@ const PopularProductCard = ({ imgURL, name, price, detail }) => {
                     image={imgURL}
                     price={price}
                     detail={detail}
+                    otherImg={otherImg}
                 />
             )}
         </div>

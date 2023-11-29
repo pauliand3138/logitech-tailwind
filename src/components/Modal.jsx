@@ -1,6 +1,10 @@
 import React from "react";
+import ShoeCard from "./ShoeCard";
+import { useState } from "react";
 
-const Modal = ({ setShowModal, name, image, price, detail }) => {
+const Modal = ({ setShowModal, name, image, price, detail, otherImg }) => {
+    const [bigShoeImg, setBigShoeImg] = useState(otherImg[0]);
+
     return (
         <div
             className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none bg-overlay"
@@ -27,11 +31,25 @@ const Modal = ({ setShowModal, name, image, price, detail }) => {
                     </div>
                     {/*body*/}
                     <div className="relative p-6 flex-auto">
-                        <div className="flex flex-row max-lg:flex-col max-lg:gap-0 justify-center space-between gap-16">
-                            <img
-                                src={image}
-                                className="mx-auto max-lg:w-[200px]"
-                            />
+                        <div className="flex flex-row max-lg:flex-col max-lg:gap-0 justify-center  gap-[7rem]">
+                            <div className="flex flex-row gap-1 bg-hero bg-cover bg-center rounded-lg items-center lg:min-w-[250px]">
+                                <img
+                                    src={bigShoeImg}
+                                    className="max-lg:mx-auto max-lg:w-[200px] w-[580px] h-[200px]"
+                                />
+                                <div className="flex flex-col justify-between">
+                                    {otherImg.map((img) => (
+                                        <ShoeCard
+                                            imgURL={img}
+                                            changeBigShoeImage={(img) => {
+                                                setBigShoeImg(img);
+                                            }}
+                                            bigShoeImg={bigShoeImg}
+                                        />
+                                    ))}
+                                </div>
+                            </div>
+
                             <p className="my-4 text-blueGray-500 text-lg max-lg:text-sm leading-relaxed info-text">
                                 {detail}
                             </p>

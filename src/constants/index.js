@@ -13,9 +13,21 @@ import {
     customer1,
     customer2,
     mouse1,
+    mouse1x1,
+    mouse1x2,
+    mouse1x3,
     mouse2,
+    mouse2x1,
+    mouse2x2,
+    mouse2x3,
     mouse3,
+    mouse3x1,
+    mouse3x2,
+    mouse3x3,
     mouse4,
+    mouse4x1,
+    mouse4x2,
+    mouse4x3,
 } from "../assets/images";
 
 export const navLinks = [
@@ -52,24 +64,28 @@ export const products = [
         name: "Logitech MX MASTER 3S",
         price: "$169.95",
         detail: "Meet MX Master 3S - an iconic mouse remastered. Feel every moment of your workflow with even more precision, tactility, and performance, thanks to Quiet Clicks and an 8,000 DPI track-on-glass sensor.",
+        otherImg: [mouse1x1, mouse1x2, mouse1x3],
     },
     {
         imgURL: mouse2,
         name: "Logitech SIGNATURE M650",
         price: "$59.95",
         detail: "You'll enjoy working with your Signature M650. Each mouse features a contoured shape, soft thumb area, and rubber side grips that keep your hand snug and in place. Get more comfort and focus more on what you need to get done.",
+        otherImg: [mouse2x1, mouse2x2, mouse2x3],
     },
     {
         imgURL: mouse3,
         name: "Logitech MX ERGO",
         price: "$220.20",
         detail: "Say no to fatigue or discomfort after a long day at work. MX ERGO is crafted for the shape of your hand and built for fast and precise tracking. Adjust your hand and wrist posture with the unique 0 or 20° tilt angle to conquer those lengthy decks and spreadsheets with ease — all the way from start to finish. ",
+        otherImg: [mouse3x1, mouse3x2, mouse3x3],
     },
     {
         imgURL: mouse4,
         name: "Logitech MX ANYWHERE 3S",
         price: "$139.95",
         detail: "Experience ultimate versatility with remarkable performance. An advanced compact mouse that lets you work wherever the work takes you. Now with next-level precision and responsiveness thanks to 8K DPI any-surface tracking and quiet clicks.",
+        otherImg: [mouse4x1, mouse4x2, mouse4x3],
     },
 ];
 
